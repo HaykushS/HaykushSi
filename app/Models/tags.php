@@ -13,5 +13,5 @@ class tags extends Model
         'tag'
 
     ];
-    
+
 }

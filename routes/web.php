@@ -57,7 +57,7 @@ Route::get('/categories' , [CategoryController::class,'index'])->name('categorie
 Route::post('/categories', [CategoryController::class, 'store'])->name('categories.store');
 Route::get('/categories/{categoriesId}' , [CategoryController::class,'show'])->name('categories.show');
 
-
+// ghvhgh
 
 Route::group(['middleware' => ['moderator']], function () {
     Route::get('users/{id}',  [HomeController::class, "showUser"])->name("user.show");
